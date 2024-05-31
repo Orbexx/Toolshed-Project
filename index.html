@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davids Toolshed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <body>
+        <!-- Header for the Website -->
+        <header>
+            <div class="header-container">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search..." name="search" class="search-input">
+                        <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="logo">
+                    <h2><span>Sting's </span><i class="bx bxs-landmark"></i> Toolshed</h2>
+                </div>
+                <div class="button-container">
+                    <button id="toggle">Button</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Home Section -->
+
+        <section class="home">
+            <div id="button-grid" class="button-grid">
+                <div class="stack-container">
+                    <button class="tool-button" onclick="addButton()">Add Button</button>
+                    <input type="text" placeholder="Name this tool.." required>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
